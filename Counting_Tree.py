@@ -18,9 +18,9 @@ for i in range(total_pos):
     temp_result = ""
 
     #goes through each generation
-    temp_result += tree[0][(count/2)/2]
-    temp_result += tree[1][count/2]
-    temp_result += tree[2][count]
+    temp_result += tree[0][int((count/2)/2)]
+    temp_result += tree[1][int(count/2)]
+    temp_result += tree[2][int(count)]
 
     #prints B's and G's from each generation
     print(temp_result)
